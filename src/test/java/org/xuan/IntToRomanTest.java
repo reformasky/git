@@ -22,4 +22,10 @@ public class IntToRomanTest {
         String actualResult = new IntToRoman().intToRoman(num);
         Assert.assertEquals(actualResult, expectedResult);
     }
+
+    @Test(dataProvider = "data")
+    public void testReverse(int expectedResult, String input) {
+        int actualResult = new RomanToInt().romanToInt(input);
+        Assert.assertEquals(actualResult, expectedResult);
+    }
 }
