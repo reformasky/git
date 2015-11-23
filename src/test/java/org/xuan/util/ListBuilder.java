@@ -22,4 +22,14 @@ public class ListBuilder {
     public ListNode build() {
         return head;
     }
+    public static ListNode buildFromArray(int[] values) {
+        if (values == null || values.length == 0) {
+            return null;
+        }
+        ListBuilder listBuilder = new ListBuilder(values[0]);
+        for(int i = 1; i < values.length;i++) {
+            listBuilder = listBuilder.add(values[i]);
+        }
+        return listBuilder.build();
+    }
 }
