@@ -1,10 +1,10 @@
 package org.xuan;
 
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created by xuan on 2015/11/22.
@@ -25,5 +25,15 @@ public class FourSumTest {
     @Test(dataProvider = "data")
     public void test(int[] input, List<List<Integer>> expectedResult) {
         List<List<Integer>> actualResult = new FourSum().fourSum(input, 0);
+    }
+
+
+    @Test
+    public void test() {
+        HashMap<String, Integer> map = new HashMap<>();
+        map.put("a",2);
+        HashMap<String, Integer> copiedMap = (HashMap<String, Integer>) map.clone();
+        copiedMap.put("a",1);
+        Assert.assertEquals(map.get("2"), (Integer) 2);
     }
 }
