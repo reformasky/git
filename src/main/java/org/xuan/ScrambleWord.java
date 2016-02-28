@@ -46,7 +46,7 @@ public class ScrambleWord {
         return false;
     }
 
-    //assume the lengthes of the arrays are the same;
+    //assume the length of the arrays are the same;
     private boolean isCandidate(char[]c1, int begin1, int end1, char[] c2, int begin2, int end2) {
         int[] counts = new int[128];
         for(int i = begin1; i <= end1; i++) {
