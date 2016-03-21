@@ -39,6 +39,8 @@ public class LongestConsecutivSequence {
                 result = Math.max(result, currResult);
             }
         }
+        
+        String[][] m = new String[][] {{null}, {null}};
         return result;
     }
 }
