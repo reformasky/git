@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 /**
  * Created by xuan on 2015/12/13.
  */
-public class JumpGameTest {
+public class JumpGametest {
     @DataProvider(name = "data")
     public Object[][] data() {
         return new Object[][] {
