@@ -24,6 +24,7 @@ public class QuickSortListTest {
         ListNode listNode = ListBuilder.buildFromArray(ints);
 
         ListNode result = new QuickSortList().sortList(listNode);
+        String[] strings = " the sky is blue".split(" ");
         assertSorted(result);
     }
 
