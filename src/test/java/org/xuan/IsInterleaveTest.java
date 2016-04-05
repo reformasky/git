@@ -17,6 +17,7 @@ public class IsInterleaveTest {
 
     @Test(dataProvider = "data")
     public void test(String s1, String s2, String s3, boolean expectedResult) {
+        System.out.println(1/-5);
         Assert.assertEquals(new IsInterleaved().isInterleave(s1, s2, s3), expectedResult);
     }
 }

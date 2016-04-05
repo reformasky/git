@@ -17,6 +17,7 @@ public class MinValueInRotatedArrayNoDup {
         }
         int mid = (high - low) /2 + low;
         if (nums[mid] > nums[low] && nums[mid] > nums[high]) {
+
             return findMin(nums, mid, high);
         }
         else {
