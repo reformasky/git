@@ -2,7 +2,7 @@ package org.xuan;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import org.xuan.util.ListBuilder;
+import util.ListBuilder;
 import util.ListNode;
 
 /**

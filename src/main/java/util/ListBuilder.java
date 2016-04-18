@@ -1,6 +1,4 @@
-package org.xuan.util;
-
-import util.ListNode;
+package util;
 
 /**
  * Created by xuan on 2015/11/8.

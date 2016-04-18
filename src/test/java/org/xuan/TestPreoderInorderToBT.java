@@ -3,13 +3,10 @@ package org.xuan;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import org.xuan.util.ArrayListBuilder;
 import util.TreeNode;
 import util.TreeNodePreOrder;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Level;
 
 /**
  * Created by xuan on 2015/11/5.

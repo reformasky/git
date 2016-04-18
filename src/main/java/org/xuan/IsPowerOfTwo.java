@@ -1,5 +1,7 @@
 package org.xuan;
 
+import java.util.Comparator;
+
 /**
  * Created by xzhou2 on 4/12/16.
  */
@@ -16,4 +18,6 @@ public class IsPowerOfTwo {
         }
         return false;
     }
+
+
 }

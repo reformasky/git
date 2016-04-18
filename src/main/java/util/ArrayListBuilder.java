@@ -1,4 +1,4 @@
-package org.xuan.util;
+package util;
 
 import java.util.ArrayList;
 
