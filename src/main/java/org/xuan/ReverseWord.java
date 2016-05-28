@@ -3,7 +3,7 @@ package org.xuan;
 /**
  * Created by xzhou2 on 3/31/16.
  */
-public class ReverseString {
+public class ReverseWord {
     public String reverseWords(String s) {
         if (s == null) {
             return s;
